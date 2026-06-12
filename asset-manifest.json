@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.319bdfa9.css",
+    "main.js": "./static/js/main.60b68ea3.js",
+    "static/js/453.57a214c1.chunk.js": "./static/js/453.57a214c1.chunk.js",
+    "static/media/image1.png": "./static/media/image1.1efba18714c398781a52.png",
+    "static/media/logo.png": "./static/media/logo.1efba18714c398781a52.png",
+    "static/media/pic.png": "./static/media/pic.1efba18714c398781a52.png",
+    "static/media/profile.png": "./static/media/profile.1efba18714c398781a52.png",
+    "static/media/bmw.png": "./static/media/bmw.0bd207c3e4699449e1c7.png",
+    "static/media/coming-soon.png": "./static/media/coming-soon.b9abf506cef4ff7b8bd6.png",
+    "static/media/icon.jpeg": "./static/media/icon.fe0db59593f749f7fca6.jpeg",
+    "index.html": "./index.html",
+    "static/media/ynubsec-cv.pdf": "./static/media/ynubsec-cv.c6a26ca1b0aae807d842.pdf",
+    "main.319bdfa9.css.map": "./static/css/main.319bdfa9.css.map",
+    "main.60b68ea3.js.map": "./static/js/main.60b68ea3.js.map",
+    "453.57a214c1.chunk.js.map": "./static/js/453.57a214c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.319bdfa9.css",
+    "static/js/main.60b68ea3.js"
+  ]
+}
