@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ynubsec.github.io/sitemap.xml
+Sitemap: https://pr4binpandey.github.io/sitemap.xml
