@@ -1,0 +1,66 @@
+.terms-page,
+.policy-page {
+  min-height: 100vh;
+  padding: 1.5rem var(--content-pad) 5rem;
+  color: #fff;
+  line-height: 1.8;
+}
+
+.terms-page h1,
+.policy-page h1 {
+  margin: 0 0 1rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(2.6rem, 5vw, 4.2rem);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.terms-list,
+.policy-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.terms-list li,
+.policy-list li {
+  position: relative;
+  padding: 1rem 1rem 1rem 1.2rem;
+  border-radius: 2px;
+  border: 2px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.03);
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.terms-list li::before,
+.policy-list li::before {
+  content: "";
+  position: absolute;
+  top: 1.15rem;
+  left: 0.55rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: #fff;
+}
+
+.footer-note,
+.updated {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.policy-list a,
+.terms-list a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 900px) {
+  .terms-page,
+  .policy-page {
+    padding-bottom: 6rem;
+  }
+}

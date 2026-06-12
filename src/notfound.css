@@ -1,0 +1,38 @@
+.notfound-section {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 2rem var(--content-pad) 5rem;
+}
+
+.notfound-content {
+  width: min(560px, 100%);
+  border-radius: var(--radius-sm);
+  text-align: center;
+  padding: clamp(2rem, 5vw, 3.2rem);
+}
+
+.notfound-content h1 {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.notfound-content h2 {
+  margin: 0.75rem 0 0;
+  font-family: 'Space Grotesk', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.notfound-content p {
+  margin: 1rem 0 1.5rem;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+  .notfound-section {
+    padding-bottom: 6rem;
+  }
+}
