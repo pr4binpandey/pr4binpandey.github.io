@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import cv from './ynubsec-cv.pdf';
+import cv from './pr4bin-cv.pdf';
 import profile from '../medias/profile.png';
 
 const roles = [
